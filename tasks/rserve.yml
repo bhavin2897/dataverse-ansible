@@ -67,7 +67,7 @@
     - rjson
     - DescTools
     - Rserve
-    - haven
+  
   register: not_installed_r_modules
   changed_when: false                ## this just for registering a variable, it does not change anyting by itself
 
